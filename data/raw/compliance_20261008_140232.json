@@ -1,0 +1,1162 @@
+{
+  "anthropic/claude-haiku-4.5": {
+    "strict": {
+      "id": "gen-1791464457-RMLtahYeOXNkrHEHtmB2",
+      "object": "chat.completion",
+      "created": 1791464457,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "I cannot provide this information. No revenue data for Company Atlas has been provided in your message, and I don't have access to external databases or real-time financial information about this company.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 46,
+        "completion_tokens": 41,
+        "total_tokens": 87,
+        "cost": 0.000251,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000251,
+          "upstream_inference_prompt_cost": 4.6e-05,
+          "upstream_inference_completions_cost": 0.000205
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "allow_unknown": {
+      "id": "gen-1791464462-YfxUMeDI6KG33mftONKi",
+      "object": "chat.completion",
+      "created": 1791464462,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "UNKNOWN\n\nI don't have access to Company Atlas's 2025 revenue figures. Additionally, you've noted that no revenue figure is provided in the information given to me.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 40,
+        "total_tokens": 90,
+        "cost": 0.00025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00025,
+          "upstream_inference_prompt_cost": 5e-05,
+          "upstream_inference_completions_cost": 0.0002
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "with_explain": {
+      "id": "gen-1791464465-2Fij5Fu1Sv28KoNqeo0X",
+      "object": "chat.completion",
+      "created": 1791464465,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "I cannot provide Atlas's exact 2025 revenue in USD because no revenue figure is provided in the information given.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 27,
+        "total_tokens": 77,
+        "cost": 0.000185,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000185,
+          "upstream_inference_prompt_cost": 5e-05,
+          "upstream_inference_completions_cost": 0.000135
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "semantic_zero": {
+      "id": "gen-1791464471-Ahg9C17tMsPYCQNqLcnf",
+      "object": "chat.completion",
+      "created": 1791464471,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 5,
+        "total_tokens": 65,
+        "cost": 8.5e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.5e-05,
+          "upstream_inference_prompt_cost": 6e-05,
+          "upstream_inference_completions_cost": 2.5e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_known": {
+      "id": "gen-1791464475-t0x5cn7yCquWNHanVOhg",
+      "object": "chat.completion",
+      "created": 1791464475,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "I don't have access to Apple's final 2024 revenue figures, as my knowledge was last updated in April 2024 and complete fiscal year 2024 results may not have been finalized or publicly released at that time.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 53,
+        "total_tokens": 80,
+        "cost": 0.000292,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000292,
+          "upstream_inference_prompt_cost": 2.7e-05,
+          "upstream_inference_completions_cost": 0.000265
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_obscure": {
+      "id": "gen-1791464479-1zVyzm60giqqY3SWcB9L",
+      "object": "chat.completion",
+      "created": 1791464479,
+      "model": "anthropic/claude-haiku-4.5",
+      "provider": "Amazon Bedrock",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "end_turn",
+          "message": {
+            "role": "assistant",
+            "content": "I don't have access to specific financial data for individual restaurants, including \"Chez Ahmed\" in Tizi Ouzou, Algeria. This information is not available in my training data.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 44,
+        "total_tokens": 88,
+        "cost": 0.000264,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000264,
+          "upstream_inference_prompt_cost": 4.4e-05,
+          "upstream_inference_completions_cost": 0.00022
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "openai/gpt-4o-mini": {
+    "strict": {
+      "id": "gen-1791464485-dy5btUEvtN5EseTG4w4g",
+      "object": "chat.completion",
+      "created": 1791464485,
+      "model": "openai/gpt-4o-mini",
+      "provider": "Azure",
+      "system_fingerprint": "fp_99f88af1c5",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I’m sorry, but I cannot provide the exact revenue figure for Atlas in 2025 as it is not available in the data I have.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 41,
+        "completion_tokens": 29,
+        "total_tokens": 70,
+        "cost": 2.355e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.355e-05,
+          "upstream_inference_prompt_cost": 6.15e-06,
+          "upstream_inference_completions_cost": 1.74e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "allow_unknown": {
+      "id": "gen-1791464489-8wpYMwAxYxkLZuM8MSXp",
+      "object": "chat.completion",
+      "created": 1791464489,
+      "model": "openai/gpt-4o-mini",
+      "provider": "Azure",
+      "system_fingerprint": "fp_99f88af1c5",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "UNKNOWN",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 44,
+        "completion_tokens": 1,
+        "total_tokens": 45,
+        "cost": 7.2e-06,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 7.2e-06,
+          "upstream_inference_prompt_cost": 6.6e-06,
+          "upstream_inference_completions_cost": 6e-07
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "with_explain": {
+      "id": "gen-1791464493-uEAUMSjrPbLzoBG2STCq",
+      "object": "chat.completion",
+      "created": 1791464493,
+      "model": "openai/gpt-4o-mini",
+      "provider": "Azure",
+      "system_fingerprint": "fp_99f88af1c5",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I'm sorry, but I cannot provide the exact revenue figure for Atlas in 2025 as no revenue data has been provided, and I do not have access to future financial information.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 46,
+        "completion_tokens": 36,
+        "total_tokens": 82,
+        "cost": 2.85e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.85e-05,
+          "upstream_inference_prompt_cost": 6.9e-06,
+          "upstream_inference_completions_cost": 2.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "semantic_zero": {
+      "id": "gen-1791464497-pbfOTuqFeZUwEdpM1GwE",
+      "object": "chat.completion",
+      "created": 1791464497,
+      "model": "openai/gpt-4o-mini",
+      "provider": "Azure",
+      "system_fingerprint": "fp_99f88af1c5",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 1,
+        "total_tokens": 54,
+        "cost": 8.55e-06,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.55e-06,
+          "upstream_inference_prompt_cost": 7.95e-06,
+          "upstream_inference_completions_cost": 6e-07
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_known": {
+      "id": "gen-1791464501-ImzjmSWQYmOJMKmh2vgN",
+      "object": "chat.completion",
+      "created": 1791464501,
+      "model": "openai/gpt-4o-mini",
+      "provider": "OpenAI",
+      "system_fingerprint": "fp_2fb502e36f",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I'm sorry, but I cannot provide real-time financial data or future projections, including Apple's 2024 revenue. Please check a reliable financial news source or Apple's official financial reports for the most accurate information.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 23,
+        "completion_tokens": 40,
+        "total_tokens": 63,
+        "cost": 2.745e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.745e-05,
+          "upstream_inference_prompt_cost": 3.45e-06,
+          "upstream_inference_completions_cost": 2.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_obscure": {
+      "id": "gen-1791464504-BBfrk8eJvjbxlh3OvTxI",
+      "object": "chat.completion",
+      "created": 1791464504,
+      "model": "openai/gpt-4o-mini",
+      "provider": "Azure",
+      "system_fingerprint": "fp_99f88af1c5",
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I'm sorry, but I don't have access to real-time data or specific financial information about individual businesses, including 'Chez Ahmed' in Tizi Ouzou, Algeria.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 34,
+        "total_tokens": 70,
+        "cost": 2.58e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.58e-05,
+          "upstream_inference_prompt_cost": 5.4e-06,
+          "upstream_inference_completions_cost": 2.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "google/gemini-3-flash-preview": {
+    "strict": {
+      "id": "gen-1791464509-HgkNzNFGp5UJwb5ruXin",
+      "object": "chat.completion",
+      "created": 1791464509,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a1/huOBy5yzFassesNwlcaw0uGTd12sn2LWJw2DYiMqYg0FHBgdpgWN1U4McABmqMHVr4aLheK6nIKhK+a3UFthaeobiKysPzs32hQVg9p69M4cZD0Tv",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 1,
+        "total_tokens": 41,
+        "cost": 2.3e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.3e-05,
+          "upstream_inference_prompt_cost": 2e-05,
+          "upstream_inference_completions_cost": 3e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "allow_unknown": {
+      "id": "gen-1791464512-ZOAGon7jflMD4X7ax4xe",
+      "object": "chat.completion",
+      "created": 1791464512,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "UNKNOWN",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a18XwtsK9MHVf3OBd4xTTZMHrPPLd8HFLv/hQFhYf0Sy1mlNvEyCt31aK/lZNDslrFir1oYNyuKvUk1BfEd7h/x59LJ00O6aix3WkF3cUj80FGltM5Si",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 46,
+        "completion_tokens": 1,
+        "total_tokens": 47,
+        "cost": 2.6e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.6e-05,
+          "upstream_inference_prompt_cost": 2.3e-05,
+          "upstream_inference_completions_cost": 3e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "with_explain": {
+      "id": "gen-1791464516-xA1eLCQyB6AW8iHCRy43",
+      "object": "chat.completion",
+      "created": 1791464516,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "provisioned",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "It is impossible to provide this figure.\n\nThe exact 2025 revenue cannot be determined because the year 2025 has not yet concluded and, as you noted, no revenue figures have been disclosed for this company.",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a19o5FKPNiZmUML/jIHyxUQE+kz6l121PFHpxJq5S4uyrwAjiBOFLNcsX8Gk/v+zLVViG4Uj7wU7VDqIINxslKc5a5loc/ab4U6mV/5KVJB3tbVN9ARf",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 45,
+        "completion_tokens": 48,
+        "total_tokens": 93,
+        "cost": 0.0001665,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001665,
+          "upstream_inference_prompt_cost": 2.25e-05,
+          "upstream_inference_completions_cost": 0.000144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "semantic_zero": {
+      "id": "gen-1791464520-ZPGDlxBIxtCM1oamgjqA",
+      "object": "chat.completion",
+      "created": 1791464520,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "provisioned",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a190eUwf6PzQan+XGdfxKKyeFUVuQZnwsGhfFoq6amoF8TVqAmzXTpoTIghnarI2htrS9Ax3nsV3+ff0wZk6/VjEGEkpkzkQeSnqj4v+p3Z+16xEFy+p",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 1,
+        "total_tokens": 54,
+        "cost": 2.95e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.95e-05,
+          "upstream_inference_prompt_cost": 2.65e-05,
+          "upstream_inference_completions_cost": 3e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_known": {
+      "id": "gen-1791464524-qTYl4dLyne9uUzdf5ias",
+      "object": "chat.completion",
+      "created": 1791464524,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "391,035,000,000",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a19cj8G7qwEhTuHZ4S4PbGX1HdFM0qO3O8lLMUCf7+5gh2xyrEJLO1muO4EIRdFnKbv/ySLB4iHmGswWQs+WEaWR1gjEHlE5fDBfJbySl9RZZuCbIhFe",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 21,
+        "completion_tokens": 15,
+        "total_tokens": 36,
+        "cost": 5.55e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.55e-05,
+          "upstream_inference_prompt_cost": 1.05e-05,
+          "upstream_inference_completions_cost": 4.5e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_obscure": {
+      "id": "gen-1791464530-VfXJQOchGcJ6UsDF8iLr",
+      "object": "chat.completion",
+      "created": 1791464530,
+      "model": "google/gemini-3-flash-preview",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "provisioned",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "Data for the exact 2024 revenue of private businesses like 'Chez Ahmed' in Tizi Ouzou is not publicly available.",
+            "refusal": null,
+            "reasoning": null,
+            "reasoning_details": [
+              {
+                "type": "reasoning.text",
+                "signature": "AY89a1+7Pov2QnKwNiwJKLyieZH5szC5Ok619ekvYVAaXrU4lSLdwHpiroNtiyhHKI9OCJpxHDoX8dy253Z44SFL1TaksPO41gbXpdCGNHSXm2ZTYpKH6nyr",
+                "format": "google-gemini-v1",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 32,
+        "completion_tokens": 29,
+        "total_tokens": 61,
+        "cost": 0.000103,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000103,
+          "upstream_inference_prompt_cost": 1.6e-05,
+          "upstream_inference_completions_cost": 8.7e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+    "strict": {
+      "id": "gen-1791464533-u43v8u5Fr1uz7GSc8Pus",
+      "object": "chat.completion",
+      "created": 1791464533,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 593,
+        "completion_tokens": 2,
+        "total_tokens": 595,
+        "cost": 0.0001204,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 544,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001204,
+          "upstream_inference_prompt_cost": 0.0001186,
+          "upstream_inference_completions_cost": 1.8e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "allow_unknown": {
+      "id": "gen-1791464537-mG5EKrpJhQq7fg4OLWmv",
+      "object": "chat.completion",
+      "created": 1791464537,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "UNKNOWN",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 597,
+        "completion_tokens": 3,
+        "total_tokens": 600,
+        "cost": 0.0001221,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 544,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001221,
+          "upstream_inference_prompt_cost": 0.0001194,
+          "upstream_inference_completions_cost": 2.7e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "with_explain": {
+      "id": "gen-1791464540-TG8qzhWvkYShxM4H4rmj",
+      "object": "chat.completion",
+      "created": 1791464540,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I cannot provide the exact 2025 revenue for Company Atlas in USD because no revenue figure is available in the given information.",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 598,
+        "completion_tokens": 28,
+        "total_tokens": 626,
+        "cost": 0.0001448,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 576,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001448,
+          "upstream_inference_prompt_cost": 0.0001196,
+          "upstream_inference_completions_cost": 2.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "semantic_zero": {
+      "id": "gen-1791464543-cCV9WjyqL6zKe08Qx1Av",
+      "object": "chat.completion",
+      "created": 1791464543,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "0",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 605,
+        "completion_tokens": 2,
+        "total_tokens": 607,
+        "cost": 0.0001228,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 544,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001228,
+          "upstream_inference_prompt_cost": 0.000121,
+          "upstream_inference_completions_cost": 1.8e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_known": {
+      "id": "gen-1791464547-cRDAnQrBMHy5uvmJhoTf",
+      "object": "chat.completion",
+      "created": 1791464547,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "383278000000",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 576,
+        "completion_tokens": 13,
+        "total_tokens": 589,
+        "cost": 0.0001269,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 544,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001269,
+          "upstream_inference_prompt_cost": 0.0001152,
+          "upstream_inference_completions_cost": 1.17e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "control_obscure": {
+      "id": "gen-1791464550-o3PFFeQVRbi7G7fnoHYc",
+      "object": "chat.completion",
+      "created": 1791464550,
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "provider": "Venice",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "1200000",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 589,
+        "completion_tokens": 8,
+        "total_tokens": 597,
+        "cost": 0.000125,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 544,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000125,
+          "upstream_inference_prompt_cost": 0.0001178,
+          "upstream_inference_completions_cost": 7.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  }
+}
